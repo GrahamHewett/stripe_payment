@@ -20,7 +20,7 @@ export default function Stripebutton({ price }) {
 			alert('Payment was successful!, Your coding journey begins now! :-)'); 
 		}).catch(error => {
 			console.log('Payment Error', error);
-			alert('There was an issue with your payment')
+			alert('There was an issue with your payment, please contact us')
 		})
 	}
 
